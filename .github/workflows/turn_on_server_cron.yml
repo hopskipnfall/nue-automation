@@ -6,6 +6,10 @@ on:
   #  branches: [ main ]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+  # Start at the end of each workday.
+  schedule:
+    # 5:00 PM M-F (Tokyo time): https://crontab.guru/#0_8_*_*_1-5
+    - cron: '0 8 * * 1-5'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
