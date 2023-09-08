@@ -11,7 +11,7 @@ on:
     # 5:00 PM M-F (Tokyo time): https://crontab.guru/#0_8_*_*_1-5
     - cron: '0 8 * * 1-5'
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel.
 jobs:
   # This workflow contains a single job called "build"
   build:
