@@ -8,9 +8,8 @@ on:
   workflow_dispatch:
   # Start at the end of each workday.
   schedule:
-    # 4:30 PM M-F (Tokyo time): https://crontab.guru/#30_7_*_*_1-5
-    - cron: '30 7 * * 1-5'
-
+    # 4:26 PM M-F (Tokyo time): https://crontab.guru/#26_7_*_*_1-5
+    - cron: '26 7 * * 1-5'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel.
 jobs:
